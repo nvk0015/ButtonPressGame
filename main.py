@@ -44,7 +44,7 @@ while True:
 
         distance = math.sqrt((y2-y1)**2+(x2-x1)**2)
         A,B,C = coff
-        distanceCM = A**distance**2+B*distance+C
+        distanceCM = A*distance**2+B*distance+C
         #draw the distance box on image
         cvzone.putTextRect(img,f'{int(distanceCM)} cm',(x+5,y-10))
         #draw rectangle around the hand
