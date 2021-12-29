@@ -14,6 +14,8 @@ This repository has two files namely main.py and Game.py.
      3. Using a measuring tape, took a note of the distances from camera to hand and also the diagonal distances from the above step while moving the hand towards and away from          the camera. and assigned them to variables called measuredValues and Rawvalues respectively.
      4. It was found that these variables are not related linearly but polynomial with a degree 2 when plotted them using matplotlib.
      5. A ML algorithm could be used to estimate new vlaues in the future but a simple polynomial equation was sufficient to fit our purpose. Using this approach the program now           ready to estimate the distance between our camera to hand.
+
+
 https://user-images.githubusercontent.com/61786557/147669566-2d3f5d42-cfaf-40ed-aa55-f04c1315d86a.mp4
 
 - Game.py
